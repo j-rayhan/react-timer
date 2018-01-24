@@ -9,7 +9,7 @@ $(document).foundation();
 require('style!css!applicationStyle')
 
 var Main = require('Main');
-var Weather = require('Weather');
+var Timer = require('Timer');
 var About = require('About');
 var Example = require('Example');
 var Contact = require('Contact');
@@ -19,7 +19,7 @@ ReactDOM.render(
       <Route path='about' component={About}/>
       <Route path='example' component={Example}/>
       <Route path='contact' component={Contact}/>
-      <IndexRoute component={Weather} />
+      <IndexRoute component={Timer} />
     </Route>
   </Router>,
   document.getElementById('app')
