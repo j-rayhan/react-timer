@@ -1,0 +1,11 @@
+$large-space: 20.5rem;
+
+.home-title{
+  margin-top: $large-space;
+  margin-bottom: $large-space;
+}
+
+input[type=search]{
+  box-shadow: none;
+  border-radius: 10%;
+}
