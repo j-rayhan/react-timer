@@ -11,13 +11,14 @@ require('style!css!applicationStyle')
 var Main = require('Main');
 var Timer = require('Timer');
 var About = require('About');
-var Example = require('Example');
+var Countdown = require('Countdown');
 var Contact = require('Contact');
+
 ReactDOM.render(
   <Router history={hashHistory}>
     <Route path='/' component={Main}>
       <Route path='about' component={About}/>
-      <Route path='example' component={Example}/>
+      <Route path='countdown' component={Countdown}/>
       <Route path='contact' component={Contact}/>
       <IndexRoute component={Timer} />
     </Route>

@@ -24,7 +24,7 @@ module.exports ={
       Main: 'app/components/Main.jsx',
       Nav: 'app/components/Navigation.jsx',
       Timer: 'app/components/Timer.jsx',
-      WeatherForm: 'app/components/WeatherForm.jsx',
+      Countdown: 'app/components/Countdown.jsx',
       WeatherMessage: 'app/components/WeatherMessage.jsx',
       Contact: 'app/components/Contact.jsx',
       About: 'app/components/About.jsx',
