@@ -25,3 +25,20 @@ input[type=search]{
 .top-bar .active-link{
   font-weight: bold;
 }
+
+.clock {
+  align-items: center;
+  background-color: red;
+  border: 3px solid #000;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  height: 14rem;
+  width: 14rem;
+  margin: 2rem auto;
+}
+.clock-text{
+  color: #fff;
+  font-size: 2.25rem;
+  font-weight: 300;
+}
