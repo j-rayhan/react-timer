@@ -8,7 +8,17 @@ input[type=search]{
   border-radius: 10%;
 }
 
-
+.controls{
+  display: flex;
+  justify-content: center;
+}
+.controls .button{
+  padding: .75rem 3rem;
+}
+.controls .button:first-child{
+  margin-right: 1.5rem;
+  width: 8.6rem;
+}
 .top-bar, .top-bar ul{
   background-color: #333333;
 }

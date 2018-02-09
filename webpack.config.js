@@ -26,13 +26,10 @@ module.exports ={
       Timer: 'app/components/Timer.jsx',
       Clock: 'app/components/Clock.jsx',
       Countdown: 'app/components/Countdown.jsx',
+      Controls: 'app/components/Controls.jsx',
       CountdownForm: 'app/components/CountdownForm.jsx',
-      WeatherMessage: 'app/components/WeatherMessage.jsx',
       Contact: 'app/components/Contact.jsx',
       About: 'app/components/About.jsx',
-      Example: 'app/components/Example.jsx',
-      ErrorModal: 'app/components/ErrorModal.jsx',
-      openWeatherMap: 'app/api/openWeatherMap.jsx',
       applicationStyle: 'app/style/app.css'
     },
     extensions: ['','.js','.jsx']
